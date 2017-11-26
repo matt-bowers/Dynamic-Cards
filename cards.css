@@ -1,0 +1,21 @@
+#card {
+    border: 1px solid lightblue;
+    width: 10em;
+    height: 11em;
+    margin-bottom: 25px;
+    /* display: inline-block; */
+    margin: .5em;
+    display: inline-flex;
+    flex-direction: column;
+}
+#card h3 {
+    text-align: center;
+    word-wrap: break-word;
+    border-bottom: 2px solid;
+    color: coral;
+    font-family: fantasy;
+}
+#card button {
+    background: aliceblue;
+    margin-top: auto;
+}
